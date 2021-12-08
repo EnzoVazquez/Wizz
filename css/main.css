@@ -102,7 +102,27 @@ body {
   width: 100%;
   height: 100vh;
 }
-
+.divNosotros{
+    display: flex;
+    height: 100vh;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 0 2rem;
+    height: 50vh;
+}
+.divImagen{
+    width: 50%;
+    height: 60vh;
+    background-image: url("../img/foto1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 .nosotros h2 {
   text-decoration: underline;
   text-align: center;
@@ -110,11 +130,20 @@ body {
   font-weight: 400;
   font-size: 40px;
 }
-
-.nosotros h3 {
+.ticks{
+    display: flex;
+    margin-top: 2rem;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.quienesSomos {
+    text-align: center;
   font-weight: 400;
   font-family: 'Bebas Neue', cursive;
-  font-size: 20px;
+  font-size: 2rem;
+  margin-bottom: .4rem;
 }
 
 .nosotros p {
@@ -126,4 +155,3 @@ body {
   font-size: 32px;
   color: #5E9B33;
 }
-/*# sourceMappingURL=main.css.map */
